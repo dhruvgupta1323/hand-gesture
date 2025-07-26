@@ -1,0 +1,1 @@
+This project uses hand gesture recognition to control a real AC bulb. A webcam detects gestures (Palm = ON, Fist = OFF) using a custom-trained model with MediaPipe and TensorFlow. The command is sent via serial to an ESP32/NodeMCU, which controls a relay to switch the bulb. It combines AI (computer vision) and IoT for real-time smart automation.
